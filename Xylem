@@ -1,1 +1,8 @@
 Hacking and cracking 
+#This is comment
+#each line is a file pattern followed by one ir more owners
+#these owner will be the default owner for everything in
+the repo.unless a later match takes precedence
+@global-owner1 and @global-ower2 will be requested for
+review when someone open a pull request.
+*        @global-owner1-owner2
